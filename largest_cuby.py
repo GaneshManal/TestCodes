@@ -17,6 +17,7 @@ col_count = len(matrix[0])
 print 'row count :', row_count, col_count, matrix[0]
 h_numbers = []
 for row in range(0, row_count):
+    # noinspection PyInterpreter
     for col in range(0, col_count):
         if matrix[row][col] is not None:
 
