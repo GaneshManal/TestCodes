@@ -5,6 +5,7 @@ Created on Aug 11, 2015
 '''
 import unittest
 
+
 class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):
