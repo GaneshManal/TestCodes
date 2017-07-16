@@ -17,7 +17,7 @@ print "Set Comprehension: ", set_x
 
 # Generator Comprehension
 nums = range(1,6)
-gen_x = ( n*n for n in nums)
+gen_x = (n*n for n in nums)
 print "Gen Comprehension: ",
 for x in gen_x:
     print x,
