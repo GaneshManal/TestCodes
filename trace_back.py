@@ -6,6 +6,7 @@ y = 0
 
 try:
     t = x/y
+
 except Exception as e:
     # print traceback.print_exc()
     exception_str = traceback.format_exc()
