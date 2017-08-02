@@ -1,6 +1,7 @@
-import logging_example
 import time
 from functools import wraps
+
+import logging_example
 
 
 def my_logger(original_function):

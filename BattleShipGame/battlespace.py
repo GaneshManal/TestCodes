@@ -1,7 +1,7 @@
 """
  Class definitions for Player and Battle Management
 """
-
+import sys
 import constants
 from weapons import BattleShip, Missile
 
@@ -65,10 +65,12 @@ class Player(object):
 class BattleField(object):
     """ class definition for battle management in provided field"""
 
-    def __init__(self):
+    def __init__(self, war_details):
         self.player_count = 0
         self._players = []
         self._dimensions = None
+        self.ship_row_count = 0
+        self.war_details = war_details
 
     def _configure_battle_field(self, dimensions):
         bf_dimension = dimensions.split(' ')
@@ -76,7 +78,18 @@ class BattleField(object):
             return False, 'In-valid Dimension Parameters'
 
         width, height = bf_dimension[0], bf_dimension[1]
-        width, height = int(width), int(ord(height)) - 64
+        width = int(width)
+
+        if height.isupper():
+            height = int(ord(height)) - constants.UPPER_CHAR_ORDER
+
+        elif height.islower():
+            height = int(ord(height)) - constants.LOWER_CHAR_ORDER
+
+        else:
+            print("In-Valid height parameter")
+            sys.exit(1)
+
         if width and height:
             self._dimensions = ['.' * width] * height
         else:
@@ -106,42 +119,23 @@ class BattleField(object):
 
         return True, None
 
-    def configure_battle(self, war_details):
-        """
-        Configure the battle using the user input details
-        :param war_details: input details for battle management
-        :return: Successfully configured or not, error message
-        """
-
-        # Configure battlefield dimensions
-        ret, msg = self._configure_battle_field(war_details[constants.BF_DIMENSIONS])
-        if not ret:
-            return ret, msg
-
-        # Configure Player Count
-        self.player_count = int(war_details[constants.PLAYERS_COUNT])
-        names = ['Player-1', 'Player-2', 'Player-3']
-        for i in range(self.player_count):
-            self._players.append(Player(names[i]))
-
-        # Configure Ships
-        ship_row_count = 0
-        for data in war_details[constants.PLAYERS_COUNT + 1:]:
+    def configure_ships(self):
+        for data in self.war_details[constants.PLAYERS_COUNT + 1:]:
             ship_details = data.split(' ')
             ship_type = ship_details[0]
 
             if ship_type in ['P', 'Q']:
-                ship_row_count += 1
+                self.ship_row_count += 1
 
                 ret, msg = self._configure_battle_ships(ship_type, ship_details)
                 if not ret:
                     return ret, msg
             else:
-                break
+                return
 
-        # Configure Missiles
+    def configure_missiles(self):
         player_index = 0
-        for data in war_details[constants.PLAYERS_COUNT + ship_row_count + 1:]:
+        for data in self.war_details[constants.PLAYERS_COUNT + self.ship_row_count + 1:]:
             x_player = self._players[player_index]
             player_index += 1
 
@@ -149,6 +143,30 @@ class BattleField(object):
             for missile_pos in missiles:
                 missile_obj = Missile(missile_pos)
                 x_player.add_missile(missile_obj)
+
+    def configure_battle(self):
+        """
+        Configure the battle using the user input details
+        :param war_details: input details for battle management
+        :return: Successfully configured or not, error message
+        """
+
+        # Configure battlefield dimensions
+        ret, msg = self._configure_battle_field(self.war_details[constants.BF_DIMENSIONS])
+        if not ret:
+            return ret, msg
+
+        # Configure Player Count
+        self.player_count = int(self.war_details[constants.PLAYERS_COUNT])
+        names = ['Player-1', 'Player-2', 'Player-3']
+        for i in range(self.player_count):
+            self._players.append(Player(names[i]))
+
+        # Configure Ships
+        ret = self.configure_ships()
+
+        # Configure Missiles
+        ret = self.configure_missiles()
 
         return True, None
 

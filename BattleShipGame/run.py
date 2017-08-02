@@ -20,8 +20,8 @@ def run():
             battle_details.append(line.strip())
 
     # Configure And Start Battle
-    bf_obj = BattleField()
-    ret_val, msg = bf_obj.configure_battle(battle_details)
+    bf_obj = BattleField(battle_details)
+    ret_val, msg = bf_obj.configure_battle()
     if not ret_val:
         print("Error: %s", msg)
         sys.exit(1)
