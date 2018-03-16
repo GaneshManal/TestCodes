@@ -1,0 +1,5 @@
+{
+    "data_dir": "input",
+    "out_dir": "output",
+    "thread_count": 2
+}
