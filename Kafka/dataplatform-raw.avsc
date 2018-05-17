@@ -1,0 +1,7 @@
+{   "namespace": "pnda.entity",
+    "type": "record",
+    "name": "event",
+    "fields": [
+        {"name": "rawdata",     "type": "bytes"}
+    ]
+}

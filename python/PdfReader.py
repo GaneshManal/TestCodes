@@ -1,12 +1,12 @@
 import os
-import numpy as np
-import matplotlib.mlab as mlab
-import matplotlib.pyplot as plt
+# import numpy as np
+# import matplotlib.mlab as mlab
+# import matplotlib.pyplot as plt
 from pyPdf import PdfFileReader, PdfFileWriter
-from matplotlib.backends.backend_pdf import PdfPages
+# from matplotlib.backends.backend_pdf import PdfPages
 
 # Read a PDF  Document
-pdfOne = PdfFileReader(file( os.getcwd() + os.path.sep + 'pdfOne.pdf', "rb"))
+pdfOne = PdfFileReader(file(os.getcwd() + os.path.sep + 'pdfOne.pdf', "rb"))
 
 # Read the pdf and write to output.pdf
 output = PdfFileWriter()
