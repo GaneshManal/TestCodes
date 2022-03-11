@@ -28,6 +28,6 @@ if __name__ == "__main__":
     ]
 
     for array in test_arrays:
-        print("actual array: {array}")
+        print(f"actual array: {array}")
         bubble_sort(array)
-        print("sorted array: {array}")
+        print(f"sorted array: {array}")
