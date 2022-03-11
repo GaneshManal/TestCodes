@@ -1,6 +1,6 @@
 '''
 Author: Ganesh Manal
-Example code: Binary search
+Example code: Binary search - using iterative approach
 '''
 
 def binary_search(num_list, search_number):
@@ -12,7 +12,7 @@ def binary_search(num_list, search_number):
     start_index, last_index = 0, len(num_list)-1
     while start_index <= last_index:
         mid_index = (start_index + last_index) // 2
-        # print(f"start: {start_index}, last: {last_index}, mid: {mid_index}")
+        # print(f"begin - start: {start_index}, last: {last_index}, mid: {mid_index}")
 
         if num_list[mid_index] > search_number:
             last_index = mid_index - 1
@@ -20,6 +20,7 @@ def binary_search(num_list, search_number):
             start_index = mid_index + 1
         else:
             return mid_index
+        # print(f"end - start: {start_index}, last: {last_index}, mid: {mid_index}")
     return -1
 
 
