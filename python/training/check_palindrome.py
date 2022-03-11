@@ -3,15 +3,15 @@ Author: Ganesh Manal
 Example code: Check if text is palindrome
 '''
 
-def is_palindrome(input_text):
+def is_palindrome(input_string):
     '''
     check if input text is palindrome
     Input: text
     Output: boolean - True if text is palindrome
     '''
-    start_index, last_index = 0, len(input_text)-1
-    while(start_index <= last_index):
-        if input_text[start_index].lower() != input_text[last_index].lower():
+    start_index, last_index = 0, len(input_string)-1
+    while start_index <= last_index:
+        if input_string[start_index].lower() != input_string[last_index].lower():
             return False
         start_index += 1
         last_index -= 1
@@ -19,7 +19,7 @@ def is_palindrome(input_text):
 
 
 if __name__ == "__main__":
-    test_inputs = [
+    text_inputs = [
         "madam",
         "racecar",
         "level",
@@ -29,7 +29,6 @@ if __name__ == "__main__":
         "No lemon, no melon"
     ]
 
-    for input_text in test_inputs:
-        check_input_text = input_text.replace(" ", "")
-        result = is_palindrome(check_input_text)
-        print(f"input string: {input_text} --- is palindrome: {result}")
+    for text in text_inputs:
+        RESULT = is_palindrome(text.replace(" ", ""))
+        print(f"\ninput string: {text} \nis palindrome: {RESULT}")
