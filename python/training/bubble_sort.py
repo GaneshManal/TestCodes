@@ -7,13 +7,16 @@ def bubble_sort(num_list):
     '''
     sort the array using the bubble sort technique
     '''
-    for i in range(len(array)):
+    size = len(array)
+    for i in range(size-1):
         swapping_done = False
-        for j in range(i+1, len(array)):
-            if num_list[i] > num_list[j]:
+        for j in range(size-i-1):
+            if num_list[j] > num_list[j+1]:
                 # Swap the numbers
+                num_list[j], num_list[j+1] = num_list[j+1], num_list[j]
                 swapping_done = True
-                num_list[i], num_list[j] = num_list[j], num_list[i]
+                # print(num_list)
+
         if not swapping_done:
             break
         # print(num_list)
