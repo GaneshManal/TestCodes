@@ -1,0 +1,19 @@
+kubectl run nginx --image=nginx --restart=Never
+kubectl describe pod nginx
+kubectl exec -it nginx -- sh
+kubectl rollout get rs ( rollout status )
+
+
+# update container -
+kubectl set image deployment.v1.apps/nginx-deployment nginx=nginx:1.16.1
+
+
+
+# v1.22.5
+kubectl version
+
+# namespaces
+kubectl get namespaces --show-labels
+kubectl config use-context dev
+
+
