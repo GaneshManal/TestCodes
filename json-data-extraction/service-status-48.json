@@ -1,0 +1,2759 @@
+
+[
+
+    {
+        "status": "healthy",
+        "service": "activesensorinfo",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "TetrationAppsMinutePipeline",
+        "tags": [
+            [
+                "DataPlatformTetrationApps",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "DBRserver",
+        "tags": [
+            [
+                "DataBackup",
+                1
+            ],
+            [
+                "DataRestore",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ResourceManagerHA",
+        "tags": [
+            [
+                "ResourceManager",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DockerBuilder",
+        "tags": [
+            [
+                "Kubernetes",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Hadoop",
+        "tags": [ ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "policystore",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "endpointpipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "snapannotator",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "TnpEnforcer",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "AdhocZooKeeper",
+        "tags": [
+            [
+                "AdhocKafkaServer",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "activeFlows",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "learnedinventorypipeline",
+                1
+            ],
+            [
+                "snapannotator",
+                1
+            ],
+            [
+                "endpointpipeline",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "HAproxy",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "pipelineMain",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "SnapshotServers",
+        "tags": [
+            [
+                "Snapshots",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 63,
+        "max_instances": 63,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Orchestrator",
+        "tags": [
+            [
+                "DBRserver",
+                1
+            ],
+            [
+                "RestoreManager",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "Kubernetes",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DbrS3Validation",
+        "tags": [
+            [
+                "DataBackup",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Nginx",
+        "tags": [
+            [
+                "UI",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "HbaseMaster",
+        "tags": [
+            [
+                "Hbase",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DataNode",
+        "tags": [
+            [
+                "HDFS",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 6,
+        "max_instances": 6,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "snapannotator",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "shallowflowspipeline",
+                1
+            ],
+            [
+                "pipelineMain",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "NN_missing_blocks",
+        "tags": [
+            [
+                "NameNode",
+                2
+            ]
+        ],
+        "debug_string": "Dependencies Failed, URL:http://namenode.namenode.service.consul:50070/jmx?qry=Hadoop:* Field:[beans][name--->Hadoop:service=NameNode,name=FSNamesystem][LastCheckpointTime] Does not match expectation. Exp:[u'(time.time() - 10800) * 1000', u'(time.time() * 1000)'] Actual:1634098268345\n\n OK found in stdout:OK\n cmd:bash /opt/tetration/hdfs_scripts/hdfs_oracleui_missingblocks.sh\n Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ltwtsensorpipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "learnedinventorypipeline",
+                1
+            ],
+            [
+                "snapannotator",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "TetrationAppsHourlyPipeline",
+        "tags": [
+            [
+                "DataPlatformTetrationApps",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "HardwareCheck",
+        "tags": [
+            [
+                "ServerHealth",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "CloudEnforcer",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Collector-batchmover",
+        "tags": [
+            [
+                "Batchmover-BiDir",
+                2
+            ],
+            [
+                "Batchmover-MachineInfo",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            {
+                "instance": "collector1",
+                "host": "collectorDatamover-1",
+                "state": "Up"
+            },
+            {
+                "instance": "collector2",
+                "host": "collectorDatamover-2",
+                "state": "Up"
+            },
+            {
+                "instance": "collector3",
+                "host": "collectorDatamover-3",
+                "state": "Up"
+            },
+            {
+                "instance": "collector4",
+                "host": "collectorDatamover-4",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "SnapshotsHAProxy",
+        "tags": [
+            [
+                "Snapshots",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "HDFS",
+        "tags": [
+            [
+                "Hbase",
+                1
+            ],
+            [
+                "Efe",
+                1
+            ],
+            [
+                "Datamover",
+                1
+            ],
+            [
+                "Batchmover-BiDir",
+                1
+            ],
+            [
+                "Batchmover-MachineInfo",
+                1
+            ],
+            [
+                "Druid",
+                1
+            ],
+            [
+                "Hadoop",
+                1
+            ],
+            [
+                "Hadoop-pipeline",
+                1
+            ],
+            [
+                "EnforcementCoordinator",
+                1
+            ],
+            [
+                "BackupDriver",
+                1
+            ],
+            [
+                "RestoreManager",
+                1
+            ],
+            [
+                "CopyEngine",
+                1
+            ],
+            [
+                "TnpEnforcer",
+                1
+            ],
+            [
+                "cimcuploadserver",
+                2
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ServerHealth",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "ResourceManager",
+        "tags": [
+            [
+                "Hadoop",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Consul",
+        "tags": [
+            [
+                "Vault",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Zookeeper",
+        "tags": [
+            [
+                "Druid",
+                1
+            ],
+            [
+                "Hbase",
+                1
+            ],
+            [
+                "Efe",
+                1
+            ],
+            [
+                "EnforcementCoordinator",
+                1
+            ],
+            [
+                "TnpEnforcer",
+                1
+            ],
+            [
+                "AdhocAMS",
+                1
+            ],
+            [
+                "AdhocDataExporter",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "SwitchWSS",
+        "tags": [ ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "TSDBRead",
+        "tags": [
+            [
+                "Grafana",
+                2
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "SecondaryNN_checkpoint_status",
+        "tags": [
+            [
+                "SecondaryNameNode",
+                2
+            ]
+        ],
+        "debug_string": "Dependencies Failed, URL:http://namenode.namenode.service.consul:50070/jmx?qry=Hadoop:* Field:[beans][name--->Hadoop:service=NameNode,name=FSNamesystem][LastCheckpointTime] Does not match expectation. Exp:[u'(time.time() - 10800) * 1000', u'(time.time() * 1000)'] Actual:1634098268345\n\n Please check dependencies!",
+        "instances_up": 0,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ifeAgentConfigPipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "fwmgr",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "down",
+        "service": "HDFSSafeMode",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "Dependencies Failed, Cannot reach any TSD servers..\n Please check dependencies!",
+        "instances_up": 0,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Collector",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            {
+                "instance": "collector1",
+                "host": "collectorDatamover-1",
+                "state": "Up"
+            },
+            {
+                "instance": "collector2",
+                "host": "collectorDatamover-2",
+                "state": "Up"
+            },
+            {
+                "instance": "collector3",
+                "host": "collectorDatamover-3",
+                "state": "Up"
+            },
+            {
+                "instance": "collector4",
+                "host": "collectorDatamover-4",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "BatchIndexer",
+        "tags": [
+            [
+                "Druid",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 6,
+        "max_instances": 6,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "AdhocKafkaServer",
+        "tags": [
+            [
+                "AdhocKafkaInstanceManager",
+                1
+            ],
+            [
+                "AdhocPublisherProxy",
+                1
+            ],
+            [
+                "AdhocAMS",
+                1
+            ],
+            [
+                "AdhocDataExporter",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "AdhocAQS",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "SystemCheck",
+        "tags": [
+            [
+                "ServerHealth",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Datamover",
+        "tags": [
+            [
+                "Batchmover-MachineInfo",
+                2
+            ],
+            [
+                "Batchmover-BiDir",
+                2
+            ]
+        ],
+        "debug_string": "TSD metric sum:3m-avg:num-files-copied{instance=collector-collectorDatamover-1,component_name=datamover_flowinfo} with value:0.0 at time:1634117220 not in expected range 1:100000\nTSD metric sum:3m-avg:num-files-copied{instance=collector-collectorDatamover-2,component_name=datamover_flowinfo} with value:0.0 at time:1634117220 not in expected range 1:100000\nTSD metric sum:3m-avg:num-files-copied{instance=collector-collectorDatamover-3,component_name=datamover_flowinfo} with value:0.0 at time:1634117220 not in expected range 1:100000\nTSD metric sum:3m-avg:num-files-copied{instance=collector-collectorDatamover-4,component_name=datamover_flowinfo} with value:0.0 at time:1634117220 not in expected range 1:100000\n Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "psPipeline",
+        "tags": [
+            [
+                "Batchmover-MachineInfo",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "TSDB",
+        "tags": [
+            [
+                "BosunServer",
+                2
+            ],
+            [
+                "AdhocPublisherProxy",
+                1
+            ],
+            [
+                "AdhocAMS",
+                1
+            ],
+            [
+                "AdhocAQS",
+                1
+            ],
+            [
+                "AppsetQueryPipeline",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Batchmover-MachineInfo",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "RebootRequired",
+        "tags": [
+            [
+                "ClusterStatus",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "BackupDriver",
+        "tags": [
+            [
+                "DataBackup",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Efe",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Postgres",
+        "tags": [
+            [
+                "Druid",
+                1
+            ],
+            [
+                "BackupDriver",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ifePolicyEnforcement",
+        "tags": [
+            [
+                "Efe",
+                1
+            ],
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "EfeSSLCheck",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "DataBackup",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "DIMMFailure",
+        "tags": [
+            [
+                "HardwareCheck",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "shallowflowspipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "APIServer",
+        "tags": [
+            [
+                "AdhocAMS",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "SecondaryNN_switchback",
+        "tags": [
+            [
+                "SecondaryNameNode",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Rails-tunneledSite",
+        "tags": [
+            [
+                "UI",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ifeCmdbPipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "AdhocKafkaInstanceManager",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "keepalived",
+        "tags": [
+            [
+                "WebHAproxy",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "NN_switchover",
+        "tags": [
+            [
+                "NameNode",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "Pipelines",
+        "tags": null,
+        "debug_string": "Dependencies Failed, \n\nDependencies Failed, No field name=com.tetration.retention.RetentionMain is present in response from url:http://yarn.service.consul:8088/ws/v1/cluster/apps?states=running\nURL:http://yarn.service.consul:8088/ws/v1/cluster/apps?states=running Field:[apps][app][name--->com.tetration.retention.RetentionMain][elapsedTime] Does not match expectation. Exp:[0, 176400000] Actual:Field Not found\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Please check dependencies!",
+        "instances_up": 15,
+        "max_instances": 16,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "CloudCollector",
+        "tags": [
+            [
+                "Collector",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "AppServerSSLCheck",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "NodeManager",
+        "tags": [
+            [
+                "ResourceManager",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 6,
+        "max_instances": 6,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Ingress",
+        "tags": [
+            [
+                "Kubernetes",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Rails-dashboard",
+        "tags": [
+            [
+                "UI",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DiskUsageWarning",
+        "tags": [
+            [
+                "SystemCheck",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Hadoop-pipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Hbase",
+        "tags": [
+            [
+                "TSDB",
+                2
+            ],
+            [
+                "TSDBRead",
+                2
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DruidSegment",
+        "tags": [
+            [
+                "Druid",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "HelmCharts",
+        "tags": [
+            [
+                "Kubernetes",
+                1
+            ]
+        ],
+        "debug_string": "Dependencies Failed,  true not found in stdout:enforcementCoordinator-1 Date: 2021-10-13T09:27:53Z helmBuild => false\n stderr:Authorized uses only. All activity may be monitored and reported.\n cmd:/bin/consul kv get enforcement/service_status/helmBuild\n Please check dependencies!",
+        "instances_up": 0,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "SecondaryNameNode",
+        "tags": [
+            [
+                "HDFS",
+                2
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "OrchestratorInventoryManager",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ],
+            [
+                "ifePolicyEnforcement",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            {
+                "instance": "tim-1",
+                "host": "appServer-1",
+                "state": "Up"
+            },
+            {
+                "instance": "tim-2",
+                "host": "appServer-2",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "MongoMover",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Vault",
+        "tags": [
+            [
+                "AdhocAMS",
+                1
+            ],
+            [
+                "SecureConnector",
+                1
+            ],
+            [
+                "DBRserver",
+                1
+            ],
+            [
+                "BackupDriver",
+                1
+            ],
+            [
+                "RestoreManager",
+                1
+            ],
+            [
+                "TnpEnforcer",
+                1
+            ],
+            [
+                "CopyEngine",
+                1
+            ],
+            [
+                "TrexProxy",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Adm",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "HDFSBlocksUsed",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ifeAnnotation",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "Enforcement",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "WebHAproxy",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Rpminstall",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DruidCoordinator",
+        "tags": [
+            [
+                "Druid",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DiskFailure",
+        "tags": [
+            [
+                "HardwareCheck",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ElasticSearch",
+        "tags": [
+            [
+                "UI",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "HbaseRegionServers",
+        "tags": [
+            [
+                "Hbase",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "retentionMain",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "activeFlows",
+                1
+            ]
+        ],
+        "debug_string": "Dependencies Failed, No field name=com.tetration.retention.RetentionMain is present in response from url:http://yarn.service.consul:8088/ws/v1/cluster/apps?states=running\nURL:http://yarn.service.consul:8088/ws/v1/cluster/apps?states=running Field:[apps][app][name--->com.tetration.retention.RetentionMain][elapsedTime] Does not match expectation. Exp:[0, 176400000] Actual:Field Not found\n\n Please check dependencies!",
+        "instances_up": 0,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "machineingestion",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "pipelineMain",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Redis",
+        "tags": [
+            [
+                "UI",
+                2
+            ],
+            [
+                "AdhocAQS",
+                1
+            ],
+            [
+                "AppsetQueryPipeline",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "NN_switchback",
+        "tags": [
+            [
+                "NameNode",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "IntentService",
+        "tags": [
+            [
+                "ifePolicyEnforcement",
+                1
+            ],
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "collectd",
+        "tags": [
+            [
+                "TSDB",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 63,
+        "max_instances": 63,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "DFE",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "Hadoop-pipeline",
+                1
+            ],
+            [
+                "AdhocAMS",
+                1
+            ],
+            [
+                "AdhocAQS",
+                1
+            ],
+            [
+                "AdhocDataExporter",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "EnforcementCoordinator",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "EnforcementKafkaServer",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ],
+            [
+                "OrchestratorInventoryManager",
+                1
+            ],
+            [
+                "ifePolicyEnforcement",
+                1
+            ],
+            [
+                "TnpPublisher",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "MongoDB",
+        "tags": [
+            [
+                "UI",
+                2
+            ],
+            [
+                "Efe",
+                2
+            ],
+            [
+                "ifeAnnotation",
+                1
+            ],
+            [
+                "ifePolicyEnforcement",
+                1
+            ],
+            [
+                "IntentService",
+                1
+            ],
+            [
+                "AdhocAMS",
+                1
+            ],
+            [
+                "SecureConnector",
+                1
+            ],
+            [
+                "DBRserver",
+                1
+            ],
+            [
+                "BackupDriver",
+                1
+            ],
+            [
+                "RestoreManager",
+                1
+            ],
+            [
+                "TnpEnforcer",
+                1
+            ],
+            [
+                "CopyEngine",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "Snapshots",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "TetrationAppsTier2Pipeline",
+        "tags": [
+            [
+                "DataPlatformTetrationApps",
+                1
+            ],
+            [
+                "AdhocAQS",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "DruidBroker",
+        "tags": [
+            [
+                "Druid",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ClusterStatus",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "CopyDriver",
+        "tags": [
+            [
+                "DataBackup",
+                1
+            ],
+            [
+                "DataRestore",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "AgentContainers",
+        "tags": [
+            [
+                "Kubernetes",
+                1
+            ]
+        ],
+        "debug_string": "Dependencies Failed,  true not found in stdout:enforcementCoordinator-1 Date: 2021-10-13T09:28:53Z imageBuild => false\n stderr:Authorized uses only. All activity may be monitored and reported.\n cmd:/bin/consul kv get enforcement/service_status/imageBuild\n Please check dependencies!",
+        "instances_up": 0,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "TnpPublisher",
+        "tags": [
+            [
+                "Enforcement",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "keepalived-internal",
+        "tags": [
+            [
+                "HAproxy",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Batchmover-BiDir",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "cimcuploadserver",
+        "tags": [
+            [
+                "fwmgr",
+                2
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Grafana",
+        "tags": [ ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "AdhocDataExporter",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "SecureConnector",
+        "tags": [
+            [
+                "OrchestratorInventoryManager",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "AdhocAMS",
+        "tags": [
+            [
+                "AdhocPublisherProxy",
+                1
+            ],
+            [
+                "AdhocDataExporter",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "Admiral",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "AppsetQueryPipeline",
+        "tags": [
+            [
+                "AdhocAQS",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "CollectorExtPeerNTP",
+        "tags": [
+            [
+                "Collector",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "AdhocPublisherProxy",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "AdhocProxy",
+        "tags": [
+            [
+                "AdhocKafkaInstanceManager",
+                1
+            ],
+            [
+                "AdhocPublisherProxy",
+                1
+            ],
+            [
+                "AdhocAMS",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "Rails-longRunning",
+        "tags": [
+            [
+                "UI",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "Druid",
+        "tags": [
+            [
+                "DFE",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 7,
+        "max_instances": 7,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "SecondaryNN_switchover",
+        "tags": [
+            [
+                "SecondaryNameNode",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DataPlatformTetrationApps",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "FanSpeed",
+        "tags": [
+            [
+                "HardwareCheck",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "UI",
+        "tags": [
+            [
+                "WebHAproxy",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DiskUsageCritical",
+        "tags": [
+            [
+                "SystemCheck",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "compactor",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "RestoreManager",
+        "tags": [
+            [
+                "DataRestore",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "TetrationAppsDailyPipeline",
+        "tags": [
+            [
+                "DataPlatformTetrationApps",
+                1
+            ],
+            [
+                "AppsetQueryPipeline",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "NameNode",
+        "tags": [
+            [
+                "HDFS",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "IndexMerge",
+        "tags": [
+            [
+                "Druid",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 6,
+        "max_instances": 6,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "CollectorSSLCheck",
+        "tags": [
+            [
+                "Collector",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DockerRegistry",
+        "tags": [
+            [
+                "Kubernetes",
+                1
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "postfix",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 8,
+        "max_instances": 8,
+        "instances": [
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "ConsulServers",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 3,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "HappobatSSLCheck",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "PolicyServer",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 1,
+        "max_instances": 3,
+        "instances": [
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "unhealthy",
+        "service": "DataRestore",
+        "tags": null,
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [ ]
+    },
+    {
+        "status": "healthy",
+        "service": "process-store",
+        "tags": null,
+        "debug_string": "",
+        "instances_up": 2,
+        "max_instances": 2,
+        "instances": [
+            {
+                "instance": "",
+                "host": "",
+                "state": "Up"
+            },
+            { }
+        ]
+    },
+    {
+        "status": "healthy",
+        "service": "DruidHistorical",
+        "tags": [
+            [
+                "Druid",
+                2
+            ]
+        ],
+        "debug_string": "",
+        "instances_up": 4,
+        "max_instances": 4,
+        "instances": [
+            { },
+            { },
+            { },
+            { }
+        ]
+    },
+    {
+        "status": "down",
+        "service": "learnedinventorypipeline",
+        "tags": [
+            [
+                "Pipelines",
+                1
+            ],
+            [
+                "snapannotator",
+                1
+            ],
+            [
+                "pipelineMain",
+                1
+            ],
+            [
+                "machineingestion",
+                1
+            ]
+        ],
+        "debug_string": " Please check dependencies!",
+        "instances_up": 1,
+        "max_instances": 1,
+        "instances": [
+            { }
+        ]
+    }
+
+]
