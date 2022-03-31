@@ -7,23 +7,20 @@ from sqlalchemy.orm import relationship, backref
 Base = declarative_base()
 
 
-class Library(Base):
+class User(Base):
     """
-    Sample Library 
+    Sample Book 
     """
-    __tablename__ = "library"
+    __tablename__ = "user"
  
     id = Column(Integer, primary_key=True)
     name = Column(String, unique=True, nullable=False)
+    age = Column(Integer)
 
-    def __init__(self, name):
+    def __init__(self, name, age=-1):
         """"""
         self.name = name
-        self.books = list()
-
-    def get_books():
-        pass
-
+        self.age = age
 
 
 # create engine and tables
